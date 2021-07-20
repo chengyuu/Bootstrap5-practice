@@ -1,0 +1,16 @@
+.nav-link{
+  color: $dark;
+    &.active,
+    &:hover,
+    &:focus{
+      color: $dark;
+      font-weight: bold;
+    }
+  }
+.tab{
+  .nav-link{
+    &.active{
+      border-bottom: 2px solid $primary;
+    }
+  }
+}

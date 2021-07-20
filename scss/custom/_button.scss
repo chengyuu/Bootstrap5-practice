@@ -1,0 +1,19 @@
+.btn-primary{
+  color: $dark;
+  &:hover{
+    color: white;
+    background-color: $danger;
+    border-color: $danger;
+  }
+}
+.btn-outline-gray{
+  &:hover,
+  &:focus{
+    color: $gray;
+    border-color: $primary;
+    background-color: $primary;
+    .fa-heart{
+      color: $danger;
+    }
+  }
+}

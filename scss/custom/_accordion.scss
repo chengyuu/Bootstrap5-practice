@@ -1,0 +1,21 @@
+.accordion-flush {
+  .accordion-item {
+    border: $accordion-border-width solid $accordion-border-color;
+    @include border-radius(.5rem);
+    margin-bottom: 1em;
+    &:first-child { 
+      border: $accordion-border-width solid $accordion-border-color;
+    }
+    &:last-child { 
+      border: $accordion-border-width solid $accordion-border-color; 
+    }
+    .accordion-button {
+      @include border-top-radius(.5rem);
+      background: none;
+      &:focus{
+        border: none;
+        box-shadow: 0 0 0 3px rgba($color: $primary, $alpha: .5);
+      }
+    }
+  }
+}
