@@ -1,5 +1,5 @@
 # Funding Platform | 拼拼–募資平台切版
-![website screenshot](https://github.com/chengyuu/chengyuu.github.io/blob/master/img/funding%20platform.png)
+![website screenshot](https://github.com/chengyuu/chengyuu.github.io/blob/master/img/funding%20platform-play.gif)
 
 ### **[Website Link](https://chengyuu.github.io/Bootstrap5-practice/)**
 ## 資源
